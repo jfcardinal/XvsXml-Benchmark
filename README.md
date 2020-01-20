@@ -1,6 +1,6 @@
 ﻿# XvsXml
 
-I have to converted some legacy code from System.Xml to System.Xml.Linq. The code uses many XPath queries. I was curious how XPath performed on XElements given its optimized for Linq access so I used BenchmarkDotNet to evaluate a few ways of counting a filtered set of elements.
+I have to convert some legacy code from System.Xml to System.Xml.Linq. The code uses many XPath queries. I was curious how XPath performed on XElements given its optimized for Linq access so I used BenchmarkDotNet to evaluate a few ways of counting a filtered set of elements.
 
 - **XPathXml**: Filter XmlElements using XPath. This is the baseline.
 - **XPathX**: Filter XElements using XPath.
